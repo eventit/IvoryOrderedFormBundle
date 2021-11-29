@@ -33,7 +33,5 @@
         "branch-alias": {
             "dev-php8": "php8-dev"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
