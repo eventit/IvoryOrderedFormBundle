@@ -12,12 +12,13 @@
 namespace Ivory\OrderedFormBundle\Tests;
 
 use Ivory\OrderedFormBundle\IvoryOrderedFormBundle;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * @author GeLo <geloen.eric@gmail.com>
  */
-class IvoryOrderedFormBundleTest extends \PHPUnit_Framework_TestCase
+class IvoryOrderedFormBundleTest extends TestCase
 {
     /**
      * @var IvoryOrderedFormBundle
@@ -27,7 +28,7 @@ class IvoryOrderedFormBundleTest extends \PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->bundle = new IvoryOrderedFormBundle();
     }

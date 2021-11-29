@@ -15,6 +15,7 @@ use Ivory\OrderedForm\Extension\OrderedButtonExtension;
 use Ivory\OrderedForm\Extension\OrderedFormExtension;
 use Ivory\OrderedForm\OrderedResolvedFormTypeFactory;
 use Ivory\OrderedFormBundle\DependencyInjection\IvoryOrderedFormExtension;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ButtonType;
@@ -23,7 +24,7 @@ use Symfony\Component\Form\Extension\Core\Type\FormType;
 /**
  * @author GeLo <geloen.eric@gmail.com>
  */
-class IvoryOrderedFormExtensionTest extends \PHPUnit_Framework_TestCase
+class IvoryOrderedFormExtensionTest extends TestCase
 {
     /**
      * @var ContainerBuilder
@@ -33,7 +34,7 @@ class IvoryOrderedFormExtensionTest extends \PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->container = new ContainerBuilder();
         $this->container->registerExtension($extension = new IvoryOrderedFormExtension());

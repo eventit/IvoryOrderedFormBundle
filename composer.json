@@ -10,15 +10,21 @@
             "email": "geloen.eric@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eventit/ivory-ordered-form.git"
+        }
+    ],
     "require": {
-        "php": "^5.6|^7.0",
-        "symfony/framework-bundle": "^2.7|^3.0|^4.0",
-        "egeloen/ordered-form": "^3.0"
+        "php": "^8.0",
+        "symfony/framework-bundle": "^4.4",
+        "egeloen/ordered-form": "dev-php8"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.0",
-        "phpunit/phpunit": "^5.0",
-        "symfony/phpunit-bridge": "^2.7|^3.0"
+        "phpunit/phpunit": "^9.5",
+        "symfony/phpunit-bridge": "^4.4"
     },
     "autoload": {
         "psr-4": { "Ivory\\OrderedFormBundle\\": "" }
