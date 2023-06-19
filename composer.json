@@ -18,8 +18,8 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "symfony/framework-bundle": "^4.4",
-        "egeloen/ordered-form": "dev-php8"
+        "symfony/framework-bundle": "^4.4|^5.4",
+        "egeloen/ordered-form": "dev-pelikan"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.0",
