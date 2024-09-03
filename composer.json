@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "symfony/framework-bundle": "^4.4|^5.4",
+        "symfony/framework-bundle": "^4.4|^5.4|^6.4",
         "egeloen/ordered-form": "dev-pelikan"
     },
     "require-dev": {
@@ -31,7 +31,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-php8": "php8-dev"
+            "dev-pelikan": "pelikan-dev"
         }
     }
 }
